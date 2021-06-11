@@ -1,0 +1,252 @@
+* {
+padding: 0;
+margin: 0;
+box-sizing: content-box;
+}
+
+
+li > a {
+    list-style: none;
+    color: #e7a331;
+}
+
+ul > li {
+    list-style: none;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header > ul > li {
+    display: inline-block;
+    padding: 0 3px;
+}
+
+.header > ul {
+    text-align: right;
+}
+
+.header > ul:nth-child(2) > li:last-child > a {
+    color: yellow;
+    border: 1px solid white;
+}
+
+.header > ul:nth-child(1) {
+    line-height: 30px;
+    background-color: white;
+}
+
+.header > ul:nth-child(1) > li:nth-child(3) {
+    padding-left: 250px;
+}
+
+.header > ul:nth-child(2) {
+    line-height: 90px;
+    background-color: rgba(0, 0, 0, 0.5 );
+}
+
+.header > ul:nth-child(2) > li > a {
+    color: white;
+    display: inline-block;
+    padding-left: 45px;
+    text-decoration: none;
+}
+
+.banner {
+    text-align: center;
+}
+
+.banner {
+    background-image: url('./images/Layer\ 69.png');
+    background-color: rgba(0, 0, 0, 1.5);
+    width: 1200px;
+}
+
+.about {
+    padding: 180px 0;
+    color: white;
+}
+
+.about > h1 {
+    font-family: 'Pacifico', cursive, sans-serif;
+    font-size: 100px;
+}
+
+.about > p {
+    padding: 0 200px;
+    font-size: 19px;
+}
+
+.about > a {
+    border: 1px solid white;
+    padding: 10px 25px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.arena  {
+    width: 1200px;
+    height: 617px;
+    background-image: url('./images/Rectangle\ 2.png');
+    width: 100%;
+    height: 100%;
+}
+
+.arena > div {  
+    display: flex;
+    padding: 109px 0;
+}
+
+.arena > div > div {
+    margin: 0 50px
+}
+
+.arena > div > div > img {
+    transform: rotate(350deg);
+    width: 250px;
+    height: 250px;
+}
+
+.arena > div > div:nth-child(2) {
+    margin: 0 100px;
+}
+
+.arena > div > div:nth-child(2) > a {
+    padding: 10px 25px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+    color: white;
+    text-decoration: none;
+    background-color: #e7a331;
+}
+
+.special {
+    background-image: url('./images/Layer\ 78.png');
+    background-color: rgba(0, 0, 0, 1.5);
+    background-repeat: no-repeat;
+}
+
+.special > div  {
+    display: flex;
+}
+
+.special > div > div:nth-child(1) {
+    padding: 50px;
+}
+
+.special > div:nth-child(3) > img {
+    width: 670px;
+    height: 554px;
+}
+
+.special > div > div > a {
+    padding: 10px 25px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+    color: white;
+    text-decoration: none;
+    background-color: #e7a331;
+}
+
+.special > div > div:nth-child(2) > img {
+    width: 500px;
+}
+
+.Delightful {
+    background-image: url('./images/Rectangle\ 2.png');
+    width: 1200px;
+    height: 1018px;
+}
+
+.Delightful > div:nth-child(1) {
+    text-align: center;
+    padding: 95px 0;
+}
+
+.Delightful > div:nth-child(2) > ul {
+    margin-bottom: 58px;
+}
+
+.Delightful > div:nth-child(2) > ul > li {
+    display: inline-block;
+}
+
+.Delightful > div:nth-child(2) > ul > li > img {
+    width: 293px;
+    height: 204px;
+    object-fit: cover;
+}
+
+footer {
+    background-image: url('./images/Rectangle\ 11.png');
+    color: white;
+}
+
+footer > div:nth-child(1) {
+    display: flex;
+}
+
+footer > div > ul > li {
+    list-style: none;
+}
+
+footer > div > div:nth-child(3) > a {
+    padding: 10px 25px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+    color: white;
+    text-decoration: none;
+    background-color: #e7a331;
+}
+
+footer > div > div > div:nth-child(2) > ul > li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+footer > div > div > div {
+    display: inline-block;
+}
+
+footer > div > div > div > h1 {
+    font-size: 30px;
+    font-family: 'Pacifico', cursive, sans-serif;
+}
+
+footer > div > div > div > ul {
+    margin-top: 114px;
+}
+
+footer > div > div > div > ul > li {
+    padding:  0 2px;
+}
+footer > div {
+    padding-top: 54px;
+}
+
+footer > div > div > div > p {
+    margin-top: 62px;
+}
+
+footer > div > div {
+    width: 308px;
+}
+
+footer > div > div:nth-child(2) {
+    width: 308px;
+}
+
+footer > div > div:nth-child(3) {
+    width: 400px;
+}
+
+
+
